@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Fraction", "Fraction\Fraction.pyproj", "{D41EF341-7DA8-466F-9D51-0A24840754E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D41EF341-7DA8-466F-9D51-0A24840754E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41EF341-7DA8-466F-9D51-0A24840754E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C0BB1AD-3CDE-4519-9F51-EA460AE2740B}
+	EndGlobalSection
+EndGlobal
