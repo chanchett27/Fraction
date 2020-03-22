@@ -1,5 +1,9 @@
 import math
 
+class InvalidInputError(Exception):
+    def __init__(self, text):
+        self.value = text
+
 class Fraction:
     def __init__(self, numerator = 0, denominator = 1):
         self.numerator = numerator
@@ -58,3 +62,16 @@ class Fraction:
         '''Prints the fraction in the proper format'''
         print("%d/%d" % (self.numerator, self.denominator))
 
+x = 0
+while x != 'q':
+    try:
+        x = input("""Fraction Calculator\nEnter which operation you'd like to execute:
+                  \n+ - Add \n- - Subtract \n* - Multiple \n\\ - Divide \nEnter q to quit\n""")
+        print("Now enter the fractions for this operation Input syntax:(Fraction = n/d, Integer = x)")
+        num1 = input("First: ")
+        
+        num2 = input("Second: ")
+
+
+    except InvalidInputError as excpt_val:
+        print(excpt_val)
