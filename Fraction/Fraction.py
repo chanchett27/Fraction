@@ -5,7 +5,10 @@ class Fraction:
         self.numerator = numerator
         self.denominator = denominator
 
-    def _common_denominator(self, other):
+    def _common_denom(self, other):
+        '''Converts two numbers to a common denominator before performing an operation'''
+        lowest = math.gcd(self.denominator, other.denominator)
+
 
     def _simplify(self):
 
