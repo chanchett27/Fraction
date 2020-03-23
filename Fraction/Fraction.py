@@ -69,7 +69,9 @@ while x != 'q':
                   \n+ - Add \n- - Subtract \n* - Multiple \n\\ - Divide \nEnter q to quit\n""")
         print("Now enter the fractions for this operation Input syntax:(Fraction = n/d, Integer = x)")
         num1 = input("First: ")
-        
+        if num1.find('/') > -1:
+            num1 = num1.split('/')
+            if 
         num2 = input("Second: ")
 
 
